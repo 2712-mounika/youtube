@@ -28,7 +28,7 @@ public class GlobalServlet extends HttpServlet {
 		out.println("<html><body>");
 		
 		String s=request.getParameter("ac");
-		if(s.equals("login"))
+		if(s.equals("register"))
 		{
 			String name=request.getParameter("name");
 			String email=request.getParameter("email");

@@ -13,7 +13,7 @@ public class YoutubeDAO implements YoutubeDAOInterface{
 	private YoutubeDAO() {}
 
 	@Override
-	public int createProfileDAO(YoutubeEmployee ye) {
+	public int createProfileDao(YoutubeEmployee ye) {
 		// TODO Auto-generated method stub
 		int i=0;
 		try {
@@ -39,4 +39,4 @@ public class YoutubeDAO implements YoutubeDAOInterface{
 		// TODO Auto-generated method stub
 		return new YoutubeDAO();
 	}
-	}
+}

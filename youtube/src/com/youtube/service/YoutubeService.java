@@ -16,7 +16,7 @@ public class YoutubeService implements YoutubeServiceInterface{
 	public int createProfile(YoutubeEmployee ye) {
 		// TODO Auto-generated method stub
 		YoutubeDAOInterface yd=YoutubeDAO.createDaoObject();
-		return yd.createProfileDAO(ye);
+		return yd.createProfileDao(ye);
 
 	}
 
